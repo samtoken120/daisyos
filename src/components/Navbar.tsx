@@ -6,7 +6,7 @@ const Navbar: FC = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['about', 'mcp', 'gallery'];
+      const sections = ['about', 'mcp'];
       
       // Find the section that is currently most visible
       for (const sectionId of sections) {
@@ -49,13 +49,6 @@ const Navbar: FC = () => {
           onClick={() => setActiveSection('mcp')}
         >
           Features
-        </a>
-        <a 
-          href="#gallery" 
-          className={`nav-link ${activeSection === 'gallery' ? 'active' : ''}`}
-          onClick={() => setActiveSection('gallery')}
-        >
-          My Gallery
         </a>
         {/* <a href="#docs" className="nav-link special">
           <span>⚡ API Docs</span>

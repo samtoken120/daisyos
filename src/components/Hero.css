@@ -1,7 +1,7 @@
 .hero {
   height: 100vh;
   width: 100%;
-  background-image: url('/illustration_hero_anime_girl.png');
+  background-image: url('/hero.png');
   background-size: cover;
   background-position: center;
   display: flex;
