@@ -129,6 +129,17 @@
   border: 1px solid rgba(255,255,255,0.2);
 }
 
+.twitter-tech .btn-content {
+  background-color: rgba(0, 0, 0, 0.85); /* X/Twitter dark */
+  background: linear-gradient(135deg, rgba(15, 20, 25, 0.95), rgba(39, 44, 48, 0.95));
+  box-shadow: inset 0 -4px 0 rgba(0,0,0,0.3);
+  border: 1px solid rgba(255,255,255,0.15);
+}
+
+.twitter-tech:hover .btn-content {
+  background: linear-gradient(135deg, rgba(30, 35, 40, 0.95), rgba(55, 60, 65, 0.95));
+}
+
 /* Contract Box */
 .tech-box {
   background: rgba(30, 41, 59, 0.85); /* Dark Slate */
